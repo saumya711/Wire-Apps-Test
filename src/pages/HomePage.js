@@ -34,7 +34,7 @@ const HomePage = () => {
 
   return (
     <div className='container'>
-      <h2 className="text-right mt-5" >Flash Sales</h2>
+      <h2 className="text-right mt-5" >Flash Sale</h2>
       <div className='row d-flex align-items-stretch'>
         {productList.map((product) => (
           <div className='col-md-4 mt-5' key={product.id}>
