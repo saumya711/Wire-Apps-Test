@@ -51,7 +51,7 @@ const HomePage = () => {
               style={{ backgroundColor: product.category === 'mens-clothing' ? '#4ff0ba' : '#eb4261' , width: "100%", borderRadius: "10px"}} // for dummy data
               //style={{ backgroundColor: product.category === 'men's clothes' ? '#4ff0ba' : '#eb4261' , width: "100%", borderRadius: "10px"}} 
             >
-            <Card.Title>Rs. {product.price}</Card.Title>
+            <Card.Title style={{ color: "#161687", fontWeight: "bold"}}>Rs. {product.price}</Card.Title>
               <Card.Text>
                 {product.description}
               </Card.Text>
