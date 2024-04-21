@@ -36,7 +36,7 @@ const ProductList = () => {
                 className="text-center mt-3 pb-10" 
                 style={{ backgroundColor: product.category === 'mens-clothing' ? '#4ff0ba' : '#eb4261', width: "100%", borderRadius: "10px"}}
               >
-                <Card.Title>Rs. {product.price}</Card.Title>
+                <Card.Title style={{ color: "#161687", fontWeight: "bold"}}>Rs. {product.price}</Card.Title>
                 <Card.Text>{product.description}</Card.Text>
               </Card.Body>
             </Card>
